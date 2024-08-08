@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url(fonts/Poppins/Poppins-Bold.ttf)
+}
+
+body {
+    font-family: "Poppins-Bold", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: url(images/gymbg.jpg)
+}
+
+/* body {
+    background: url(images/woman-back.jpg)
+} */
+
+.left {
+    display: inline-block;
+   /*  border: 0px solid red; */
+    position: absolute;
+    left: 4px;
+    top: 1px;
+}
+
+.left img {
+    width: 210px;
+    filter: invert(100px);
+}
+
+.left div {
+    text-align: center;
+    color: beige;
+}
+
+.mid {
+    display: block;
+    width: 33%;
+    margin: 1px 410px;
+    
+}
+
+.right {
+    position: absolute;
+    right: 4px;
+    top: 12px;
+    display: inline-flex;
+    /* border: 2px solid greenyellow; */
+}
+
+.navbar {
+    display: inline-flex;
+}
+
+.navbar li {
+    display: inline-flex;
+    font-size: 17px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 38px 20px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: gray;
+}
+
+.btn {
+    margin: 0px 7px;
+    color: white;
+    background-color: black;
+    padding: 12px 11px;
+    border: 3px solid gray;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn :hover {
+    background-color: rgb(52, 52, 52);
+}
+
+.container {
+    border: 2px solid white;
+    margin: 132px 385px;
+    padding: 60px;
+    width: 33%;
+    border-radius: 6px;
+}
+
+.form-group input {
+    font-family: "Poppins-Bold", sans-serif;
+    text-align: center;
+    display: block;
+    width: 350px;
+    padding: 2px;
+    border: 1px solid black;
+    margin: 9px 60px;
+    border-radius: 0px;
+    font-size: 18px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 85%;
+    margin: 25px 42px;
+    height: 45px;
+}
